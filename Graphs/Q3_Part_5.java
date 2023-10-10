@@ -27,7 +27,7 @@ public class Q3_Part_5 {
          }
          for (int i = 0; i < tasks.length; i++) {
             
-                graph[i].add(new Edge(tasks[i][1], tasks[i][0], 1));
+                 graph[tasks[i][1]].add(new Edge(tasks[i][1], tasks[i][0], 1));
             
          }
          
